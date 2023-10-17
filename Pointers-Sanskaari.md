@@ -65,7 +65,7 @@ So, now that we know about pointers to some extent, we can try experimentation w
 
 Here, we know about the first five lines right? no? Go above and read this whole a\*\* blog again then. So, the interesting stuff starts in line 6. What would "\*ptr" do? I mean, we have already learned that putting a "\*" in front of a variable name during definition, makes it a pointer. So, what will happen if we put it again anywhere else in the code? Well, what it'll do is it will **access the value** stored at the address it is pointing to. Or, in simpler terms ( _that you obviously need_) is that "\*ptr" == "a" (**considering "ptr" is a pointer pointing to the variable "a"**). So, line 6 will print "10". Similarly, if you put "\*\*" in front of a pointer, it will again access the address of the variable it was pointing to. putting "\*\*\*" again will access the value at the address and so on..... Thus, you can put any number of "\*" in front of the pointer. If number of "\*" is even, it will access the address of the variable it is pointing to, and an odd number of "\*" will access the value at that address.
 
-![GeeksforGeeks Zindabad!](https://media.geeksforgeeks.org/wp-content/cdn-uploads/How-Pointer-Works-In-C.png align="center")
+![GeeksforGeeks Zindabad!](https://media.geeksforgeeks.org/wp-content/cdn-uploads/How-Pointer-Works-In-C.png)
 
 **The image belongs GeeksforGeeks. Read their Pointers stuff as well.**
 
